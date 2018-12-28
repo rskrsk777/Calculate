@@ -181,26 +181,24 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNG-hF-mtQ">
-                                <rect key="frame" x="186" y="238" width="42" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNG-hF-mtQ">
+                                <rect key="frame" x="0.0" y="168" width="414" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="mNG-hF-mtQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="D8v-Ge-c89"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mNG-hF-mtQ" secondAttribute="trailing" constant="186" id="G00-0C-7jC"/>
+                            <constraint firstItem="mNG-hF-mtQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="6Jf-hF-AOP"/>
                             <constraint firstItem="sIl-jH-DEu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OMc-n3-Kya"/>
                             <constraint firstItem="sIl-jH-DEu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UKf-hI-hI6"/>
-                            <constraint firstItem="mNG-hF-mtQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="eSz-g1-y2i"/>
+                            <constraint firstItem="mNG-hF-mtQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="qEH-I7-GdG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="iV6-AG-vnK"/>
                     <connections>
-                        <outlet property="allVerticalStack" destination="sIl-jH-DEu" id="p2C-VK-adt"/>
                         <outlet property="buttonAsterisk" destination="Y7b-uv-Vdi" id="Lny-Jg-FyY"/>
                         <outlet property="buttonCal" destination="yJl-VY-l1n" id="dLq-x6-Jed"/>
                         <outlet property="buttonCancel" destination="ywa-u0-K6N" id="WTN-3S-tda"/>
@@ -222,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="472" y="202"/>
+            <point key="canvasLocation" x="841" y="-33"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ucV-NY-9wB">
@@ -240,7 +238,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qhq-sp-Gt3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-610" y="395"/>
+            <point key="canvasLocation" x="-774" y="307"/>
         </scene>
     </scenes>
 </document>

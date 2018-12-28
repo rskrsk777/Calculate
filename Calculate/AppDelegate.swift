@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Calculate
-//
-//  Created by ryosuke kubo on 2018/12/26.
-//  Copyright © 2018 ryosuke kubo. All rights reserved.
-//
 
 import UIKit
 
